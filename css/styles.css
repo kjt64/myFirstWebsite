@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'Consolas';
+    src: url("/css/fonts/consola.ttf");
+}
+
+@font-face {
+    font-family: 'Courier';
+    src: url("/css/fonts/courier.ttf");
+}
+
+@font-face {
+    font-family: 'Andada';
+    src: url("/css/fonts/AndadaPro-VariableFont_wght.ttf");
+}
+
+html {
+    background-image: url('/assets/hatter.png');
+    background-position: center;
+    margin: 80px;
+}
+
+p {
+    margin-left: 120px;
+}
+
+.name {
+    font-family: 'Courier';
+    font-weight: bold;
+    font-size: 80px;
+    margin-top: 120px;
+    margin-left: 120px;
+    margin-bottom: 0px;
+    color: rgb (255, 255, 255);
+}
+
+.job-line {
+    font-family: 'Andada';
+    font-size: 42px;
+    font-stretch: ultra-condensed;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 120px;
+    color: rgb(252, 25, 153);
+}
+
+.separator {
+    font-size: 40px;
+    font-weight: 100;
+    font-stretch: expanded;
+    text-align: center;
+}
+
+.first-paragraph {
+    font-family: 'Consolas';
+    font-size: 24px;
+    font-weight: 100;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+}
+
+.second-level {
+    font-family: 'Courier';
+    font-size: 42px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-left: 120px;
+}
+
+h3 {
+    font-family: 'Courier';
+    font-size: 36px;
+    font-stretch: ultra-condensed;
+    color: rgb(0, 0, 0);
+    margin-left: 120px;
+}
+
+.second-paragraph {
+    font-family: 'Consolas';
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+}
+.logo {
+    height: 60px;
+    width: 60px;
+    padding: 10px;
+}
+
+.nav-bar {
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    display: inline-block;
+    text-align: right;
+    background-color: rgb(51, 51, 51);
+}
+
+ul.topnav
+{
+    list-style-type: none;
+    height: 80px;
+    margin-left: 200px;
+    margin-right: 80px;
+    margin-top: 0px;
+    padding: 0px;
+    overflow: hidden;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: rgb(252, 25, 153);
+    font-family: 'Consolas', serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+  
+ul.topnav li {float: left; height: 80px;}
+  
+ul.topnav li a
+{
+    display: block;
+    color: rgb(252, 25, 153);
+    text-align: center;
+    padding: 30px;
+    text-decoration: underline;
+    text-decoration-color: rgb(252, 25, 153);
+    font-family: 'Consolas', serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+  
+ul.topnav li a:hover {background-color: rgb(0, 0, 0);}
+  
+ul.topnav li a:active {background-color: rgb(255, 0, 0); color: rgb(255, 255, 255); text-decoration: none;}
+  
+ul.topnav li.right {float: right;}
